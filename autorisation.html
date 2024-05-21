@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header> <!--Шапка сайта-->
+
+
+    <p>
+        <a href="index.html">На главную</a>
+    </p>
+
+</header>
+
+<body>
+    <h2>Форма для обратной связи</h2>
+    <form action="https://httbin.org/post" method="post">
+        <fieldset>
+            <p>
+                <label> Выберите количесво
+                    <select name="quantity"> <!--выбор из списка-->
+                        <option value="1">Товар 1</option> <!--Элемент списка-->
+                        <option value="2">Товар 2</option>
+                        <option value="3">Товар 3</option>
+                        <option value="4">Товар 4</option>
+                    </select>
+                </label>
+
+
+            </p>
+            <legend>Поля с данными</legend>
+            <p>
+                <label>
+                    Текстовое поле
+                    <input id="text" name="text-field" placeholder="Введите свой тест" required>
+                </label>
+            </p>
+            <p>
+                <label >
+                    Пароль
+                    <input type="password" name="password" value="password"required>
+                </label>
+            </p>
+            <p>
+                <label>простое текстовое поле
+                    <input type="text" name="text-field" placeholder="Введите свой текст" required>
+                </label>
+            </p>
+            <p>
+                <label>простое текстовое поле
+                    <input type="text" name="text_1">
+                </label>    
+        </fieldset>
+        <fieldset>
+            <legend>Поля со своим вводом</legend>
+            <p>
+                <label for="Ваш адрем электронной почты">
+                    <input type="email" name="email">
+                </label>
+            </p>
+
+
+
+        </fieldset>
+    </p>
+    <label><input type="radio" name="radio">1</label>
+    <label><input type="checkbox" name="checkbox">1</label>
+    <input type="hidden" name="tracher" value="Привет">
+    <button ></button>
+
+
+    </form>
+    
+    <h2>Ссылка как кнопка</h2>
+     <a href="#" class="button">Купить</a>
+     <a href="#" class="button">Купить</a>
+     <a href="#" class="button">Купить</a>
+
+    
+    
+
+</body>

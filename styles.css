@@ -1,0 +1,7 @@
+a.button:hover{
+    background-color:red;
+    box-shadow: 0 2px 4px black;
+}
+a.button:visited{
+    background-color: rgb(255, 230, 0);
+}
